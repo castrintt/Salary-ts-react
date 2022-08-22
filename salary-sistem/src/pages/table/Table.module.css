@@ -1,0 +1,9 @@
+.table {
+  background-color: white;
+  box-shadow: 3px 3px 8px rgba(128, 128, 128, 0.5);
+  max-width: 80%;
+  width: 100%;
+  margin: 0 auto 2rem auto;
+  border-radius: 0.7rem;
+  min-height: 20rem;
+}
