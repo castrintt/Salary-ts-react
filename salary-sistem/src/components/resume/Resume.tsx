@@ -1,9 +1,11 @@
-import React from "react";
 import styles from "./Resume.module.css";
+import { useSelector } from "react-redux";
+import { RootState } from "../../redux/store";
+import { IListText } from "../../interfaces/category/listCategory";
 
-type Props = {};
+const Resume = () => {
+  const { listOfValues } = useSelector((state: RootState) => state.category);
 
-const Resume = (props: Props) => {
   return (
     <div className={styles.resume__container}>
       <div>
@@ -21,7 +23,7 @@ const Resume = (props: Props) => {
       </div>
       <div>
         <span>Despesa</span>
-        <span>R$ 7500.00</span>
+        <span>{`R$ 00,00`}</span>
       </div>
       <div>
         <span>Balanço</span>

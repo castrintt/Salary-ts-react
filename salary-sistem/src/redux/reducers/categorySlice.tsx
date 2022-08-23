@@ -1,28 +1,57 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { ICategory } from "../../interfaces/category/categoryInterfaces";
+import { IListText } from "../../interfaces/category/listCategory";
 
 const INITIAL_STATE: ICategory = {
   date: "",
   category: "",
   title: "",
   value: "",
+  listOfValues: [],
 };
+
+type TPayload = PayloadAction<string>;
 
 const categorySlice = createSlice({
   name: "salary",
   initialState: INITIAL_STATE,
   reducers: {
-    food(state, { payload }: PayloadAction<string>) {
-      state.category = "food";
+    categoryPicker(state, { payload }: TPayload) {
+      switch (payload) {
+        case "food":
+          state.category = payload;
+          break;
+        case "rent":
+          state.category = payload;
+          break;
+        case "salary":
+          state.category = payload;
+          break;
+        default:
+          state.category = "";
+          break;
+      }
     },
-    rent(state, { payload }: PayloadAction<string>) {
-      state.category = "rent";
+    datePicker(state, { payload }: TPayload) {
+      state.date = payload;
     },
-    salary(state, { payload }: PayloadAction<string>) {
-      state.category = "salary";
+    titlePicker(state, { payload }: TPayload) {
+      state.title = payload;
+    },
+    valuePicker(state, { payload }: TPayload) {
+      state.value = payload;
+    },
+    putValuesOnList(state, { payload }: PayloadAction<IListText>) {
+      state.listOfValues.push(payload);
     },
   },
 });
 
 export default categorySlice.reducer;
-export const { food, rent, salary } = categorySlice.actions;
+export const {
+  categoryPicker,
+  datePicker,
+  titlePicker,
+  valuePicker,
+  putValuesOnList,
+} = categorySlice.actions;

@@ -1,8 +1,8 @@
-type TText = string;
-
+import { IListText } from "./listCategory";
 export interface ICategory {
-  date: TText;
-  category: TText;
-  title: TText;
-  value: TText;
+  date: string;
+  category: string;
+  title: string;
+  value: string;
+  listOfValues: IListText[];
 }

@@ -6,4 +6,59 @@
   margin: 0 auto 2rem auto;
   border-radius: 0.7rem;
   min-height: 20rem;
+  padding: 2rem 0;
+}
+
+.table > .table__head {
+  background-color: #8b949e7c;
+  max-width: 90%;
+  width: 100%;
+  margin: 0 auto 2rem auto;
+  height: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr 1fr;
+  align-items: center;
+  border-radius: 0.4rem;
+  position: relative;
+  top: 1rem;
+}
+
+.table span {
+  font-size: 0.9rem;
+}
+
+.table > .table__head > span:first-child {
+  margin-left: 1.4rem;
+}
+
+.table > .table__head > span {
+  font-weight: bold;
+}
+
+.table > .table__body {
+  max-width: 90%;
+  width: 100%;
+  margin: 0 auto 1rem auto;
+}
+
+.table > .table__body > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr 1fr;
+  align-items: center;
+  border-radius: 0.4rem;
+  border: 1px solid rgba(128, 128, 128, 0.342);
+  height: 3rem;
+}
+
+.table > .table__body > div > span:first-child {
+  margin-left: 1.4rem;
+}
+
+.green {
+  color: green;
+  font-weight: bold;
+}
+.red {
+  color: red;
+  font-weight: bold;
 }
