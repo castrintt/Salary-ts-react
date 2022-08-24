@@ -52,3 +52,11 @@
 .resume__container > div:not(:first-child) > span:first-child {
   color: grey;
 }
+
+.expenditures {
+  color: red;
+}
+
+.revenues {
+  color: green;
+}

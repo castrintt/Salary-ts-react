@@ -1,5 +1,5 @@
 import styles from "./FormField.module.css";
-import { ChangeEvent, MouseEvent } from "react";
+import { ChangeEvent, MouseEvent, useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { RootState } from "../../redux/store";
 import {
@@ -12,17 +12,30 @@ import {
 
 const FormField = () => {
   type EventChange = ChangeEvent<HTMLInputElement>;
+  const [disabledButton, setDisabledButton] = useState<boolean>(false);
 
   const { date, category, title, value } = useSelector(
     (state: RootState) => state.category
   );
   const dispatch = useDispatch();
 
+  const disabledButtonFunction = (setter: (newState: boolean) => void) => {
+    if (date && category && title && value) {
+      setter(false);
+    } else {
+      setter(true);
+    }
+  };
+
+  useEffect(() => {
+    disabledButtonFunction(setDisabledButton);
+  }, [date, category, title, value]);
   return (
     <form className={styles.form}>
       <div>
         <label htmlFor="dateTime">Data</label>
         <input
+          required
           type="date"
           name="dateTime"
           onChange={(e: EventChange) => {
@@ -34,6 +47,7 @@ const FormField = () => {
       <div>
         <label htmlFor="category">Categoria</label>
         <select
+          required
           name="category"
           onChange={(e: ChangeEvent<HTMLSelectElement>) => {
             dispatch(categoryPicker(e.target.value));
@@ -49,6 +63,7 @@ const FormField = () => {
       <div>
         <label htmlFor="title">Título</label>
         <input
+          required
           type="text"
           name="title"
           onChange={(e: EventChange) => {
@@ -60,6 +75,7 @@ const FormField = () => {
       <div>
         <label htmlFor="value">Valor</label>
         <input
+          required
           type="number"
           name="value"
           onChange={(e: EventChange) => {
@@ -69,8 +85,10 @@ const FormField = () => {
         />
       </div>
       <input
+        required
         type="submit"
         value="Adicionar"
+        disabled={disabledButton}
         onClick={(e: MouseEvent<HTMLInputElement>) => {
           e.preventDefault();
           dispatch(

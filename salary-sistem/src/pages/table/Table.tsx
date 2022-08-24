@@ -26,8 +26,10 @@ const Table = () => {
               <span>{values.category}</span>
               <span>{values.title}</span>
               <span
-                className={Number(values.value) > 0 ? styles.green : styles.red}
-              >{`R$ ${values.value},00`}</span>
+                className={
+                  values.category !== "salary" ? styles.red : styles.green
+                }
+              >{`R$ ${values.value}`}</span>
             </div>
           ))}
       </div>

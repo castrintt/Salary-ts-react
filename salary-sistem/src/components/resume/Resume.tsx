@@ -1,10 +1,59 @@
 import styles from "./Resume.module.css";
+import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { RootState } from "../../redux/store";
 import { IListText } from "../../interfaces/category/listCategory";
+import { IUserInterface } from "../../interfaces/resume/userInterface";
 
 const Resume = () => {
-  const { listOfValues } = useSelector((state: RootState) => state.category);
+  const { listOfValues, category } = useSelector(
+    (state: RootState) => state.category
+  );
+  const [userData, setUserData] = useState<IUserInterface>({
+    expenditure: 0,
+    revenue: 0,
+  });
+  const resumeExpenditures = (): void => {
+    const expenditures = listOfValues.filter((values: IListText) => {
+      return values.category !== "salary";
+    });
+    const expendituresList: number[] = [];
+    expenditures.map((values: IListText) => {
+      expendituresList.push(Number(values.value));
+    });
+    let expenditureTotal: number = 0;
+    expendituresList.map((values: number): number => {
+      expenditureTotal += values;
+      return expenditureTotal;
+    });
+    setUserData({
+      ...userData,
+      expenditure: expenditureTotal,
+    });
+  };
+
+  const resumeRevenue = (): void => {
+    const revenues = listOfValues.filter((values: IListText) => {
+      return values.category === "salary";
+    });
+    const revenuesList: number[] = [];
+    revenues.map((values: IListText) => {
+      revenuesList.push(Number(values.value));
+    });
+    let revenuesTotal: number = 0;
+    revenuesList.map((values: number) => {
+      revenuesTotal += values;
+      return revenuesTotal;
+    });
+    setUserData({
+      ...userData,
+      revenue: revenuesTotal,
+    });
+  };
+
+  useEffect(() => {
+    category === "salary" ? resumeRevenue() : resumeExpenditures();
+  }, [listOfValues, category]);
 
   return (
     <div className={styles.resume__container}>
@@ -19,15 +68,23 @@ const Resume = () => {
       </div>
       <div>
         <span>Receita</span>
-        <span>R$ 7500.00</span>
+        <span className={styles.revenues}>{`R$ ${userData.revenue}`}</span>
       </div>
       <div>
         <span>Despesa</span>
-        <span>{`R$ 00,00`}</span>
+        <span
+          className={styles.expenditures}
+        >{`R$ ${userData.expenditure}`}</span>
       </div>
       <div>
         <span>Balanço</span>
-        <span>R$ 7500.00</span>
+        <span
+          className={
+            userData.revenue - userData.expenditure > 0
+              ? styles.revenues
+              : styles.expenditures
+          }
+        >{`R$ ${userData.revenue - userData.expenditure}`}</span>
       </div>
     </div>
   );
