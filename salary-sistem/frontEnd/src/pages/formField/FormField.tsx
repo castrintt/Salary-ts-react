@@ -9,16 +9,14 @@ import {
   valuePicker,
   putValuesOnList,
 } from "../../redux/reducers/categorySlice";
+type EventChange = ChangeEvent<HTMLInputElement>;
 
 const FormField = () => {
-  type EventChange = ChangeEvent<HTMLInputElement>;
   const [disabledButton, setDisabledButton] = useState<boolean>(false);
-
   const { date, category, title, value } = useSelector(
     (state: RootState) => state.category
   );
   const dispatch = useDispatch();
-
   const disabledButtonFunction = (setter: (newState: boolean) => void) => {
     if (date && category && title && value) {
       setter(false);
