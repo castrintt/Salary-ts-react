@@ -1,0 +1,49 @@
+.form {
+  background-color: white;
+  max-width: 80%;
+  width: 100%;
+  height: 8rem;
+  margin: 0 auto;
+  border-radius: 0.7rem;
+  box-shadow: 3px 3px 8px rgba(128, 128, 128, 0.288);
+  position: relative;
+  top: -2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1.2fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.form > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 1rem;
+  gap: 0.7rem;
+}
+.form > div > :where(input, select) {
+  width: 80%;
+  padding: 0.4rem 0.4rem;
+  border-radius: 0.4rem;
+  border: 1px solid rgba(128, 128, 128, 0.336);
+  outline: none;
+  font-size: 0.9rem;
+}
+
+.form > input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.4rem;
+  width: 90%;
+  margin-top: 1rem;
+  border-radius: 0.7rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #aed7e5;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
