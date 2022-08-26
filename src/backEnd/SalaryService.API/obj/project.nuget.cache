@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "4BjidCX9vlcDFQn2PPrE62tQzQHnZDjG5r3bSkskR7VN+R1lR3VoJrgFHXlhjvcr6AqJuUf8slKICPgYTPtYGA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Igor Seven\\Documents\\ProjetosNET6\\SalaryService\\SalaryService.API\\SalaryService.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Igor Seven\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Igor Seven\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Igor Seven\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Igor Seven\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Igor Seven\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Igor Seven\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

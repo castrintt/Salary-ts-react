@@ -1,0 +1,12 @@
+C:\Users\Igor Seven\Documents\ProjetosNET6\SalaryService\SalaryService.Domain\bin\Debug\net6.0\SalaryService.Domain.deps.json
+C:\Users\Igor Seven\Documents\ProjetosNET6\SalaryService\SalaryService.Domain\bin\Debug\net6.0\SalaryService.Domain.dll
+C:\Users\Igor Seven\Documents\ProjetosNET6\SalaryService\SalaryService.Domain\bin\Debug\net6.0\SalaryService.Domain.pdb
+C:\Users\Igor Seven\Documents\ProjetosNET6\SalaryService\SalaryService.Domain\obj\Debug\net6.0\SalaryService.Domain.csproj.AssemblyReference.cache
+C:\Users\Igor Seven\Documents\ProjetosNET6\SalaryService\SalaryService.Domain\obj\Debug\net6.0\SalaryService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Igor Seven\Documents\ProjetosNET6\SalaryService\SalaryService.Domain\obj\Debug\net6.0\SalaryService.Domain.AssemblyInfoInputs.cache
+C:\Users\Igor Seven\Documents\ProjetosNET6\SalaryService\SalaryService.Domain\obj\Debug\net6.0\SalaryService.Domain.AssemblyInfo.cs
+C:\Users\Igor Seven\Documents\ProjetosNET6\SalaryService\SalaryService.Domain\obj\Debug\net6.0\SalaryService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Igor Seven\Documents\ProjetosNET6\SalaryService\SalaryService.Domain\obj\Debug\net6.0\SalaryService.Domain.dll
+C:\Users\Igor Seven\Documents\ProjetosNET6\SalaryService\SalaryService.Domain\obj\Debug\net6.0\refint\SalaryService.Domain.dll
+C:\Users\Igor Seven\Documents\ProjetosNET6\SalaryService\SalaryService.Domain\obj\Debug\net6.0\SalaryService.Domain.pdb
+C:\Users\Igor Seven\Documents\ProjetosNET6\SalaryService\SalaryService.Domain\obj\Debug\net6.0\ref\SalaryService.Domain.dll
