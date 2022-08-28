@@ -1,0 +1,17 @@
+C:\Users\Igor Seven\Documents\MyRepositories\Projeto - Igor Front\Salary_New\Salary-ts-react\src\backEnd\SalaryService.Infra\bin\Debug\net6.0\SalaryService.Infra.deps.json
+C:\Users\Igor Seven\Documents\MyRepositories\Projeto - Igor Front\Salary_New\Salary-ts-react\src\backEnd\SalaryService.Infra\bin\Debug\net6.0\SalaryService.Infra.runtimeconfig.json
+C:\Users\Igor Seven\Documents\MyRepositories\Projeto - Igor Front\Salary_New\Salary-ts-react\src\backEnd\SalaryService.Infra\bin\Debug\net6.0\SalaryService.Infra.dll
+C:\Users\Igor Seven\Documents\MyRepositories\Projeto - Igor Front\Salary_New\Salary-ts-react\src\backEnd\SalaryService.Infra\bin\Debug\net6.0\SalaryService.Infra.pdb
+C:\Users\Igor Seven\Documents\MyRepositories\Projeto - Igor Front\Salary_New\Salary-ts-react\src\backEnd\SalaryService.Infra\bin\Debug\net6.0\SalaryService.Domain.dll
+C:\Users\Igor Seven\Documents\MyRepositories\Projeto - Igor Front\Salary_New\Salary-ts-react\src\backEnd\SalaryService.Infra\bin\Debug\net6.0\SalaryService.Domain.pdb
+C:\Users\Igor Seven\Documents\MyRepositories\Projeto - Igor Front\Salary_New\Salary-ts-react\src\backEnd\SalaryService.Infra\obj\Debug\net6.0\SalaryService.Infra.csproj.AssemblyReference.cache
+C:\Users\Igor Seven\Documents\MyRepositories\Projeto - Igor Front\Salary_New\Salary-ts-react\src\backEnd\SalaryService.Infra\obj\Debug\net6.0\SalaryService.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Igor Seven\Documents\MyRepositories\Projeto - Igor Front\Salary_New\Salary-ts-react\src\backEnd\SalaryService.Infra\obj\Debug\net6.0\SalaryService.Infra.AssemblyInfoInputs.cache
+C:\Users\Igor Seven\Documents\MyRepositories\Projeto - Igor Front\Salary_New\Salary-ts-react\src\backEnd\SalaryService.Infra\obj\Debug\net6.0\SalaryService.Infra.AssemblyInfo.cs
+C:\Users\Igor Seven\Documents\MyRepositories\Projeto - Igor Front\Salary_New\Salary-ts-react\src\backEnd\SalaryService.Infra\obj\Debug\net6.0\SalaryService.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Igor Seven\Documents\MyRepositories\Projeto - Igor Front\Salary_New\Salary-ts-react\src\backEnd\SalaryService.Infra\obj\Debug\net6.0\SalaryService.Infra.csproj.CopyComplete
+C:\Users\Igor Seven\Documents\MyRepositories\Projeto - Igor Front\Salary_New\Salary-ts-react\src\backEnd\SalaryService.Infra\obj\Debug\net6.0\SalaryService.Infra.dll
+C:\Users\Igor Seven\Documents\MyRepositories\Projeto - Igor Front\Salary_New\Salary-ts-react\src\backEnd\SalaryService.Infra\obj\Debug\net6.0\refint\SalaryService.Infra.dll
+C:\Users\Igor Seven\Documents\MyRepositories\Projeto - Igor Front\Salary_New\Salary-ts-react\src\backEnd\SalaryService.Infra\obj\Debug\net6.0\SalaryService.Infra.pdb
+C:\Users\Igor Seven\Documents\MyRepositories\Projeto - Igor Front\Salary_New\Salary-ts-react\src\backEnd\SalaryService.Infra\obj\Debug\net6.0\SalaryService.Infra.genruntimeconfig.cache
+C:\Users\Igor Seven\Documents\MyRepositories\Projeto - Igor Front\Salary_New\Salary-ts-react\src\backEnd\SalaryService.Infra\obj\Debug\net6.0\ref\SalaryService.Infra.dll

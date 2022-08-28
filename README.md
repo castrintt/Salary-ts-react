@@ -6,7 +6,7 @@ System to register and make the swing of your economy
 # Install + Usage
 
 - git clone (repo)
-- cd salary-sistem
+- cd src
 - cd frontEnd 
 - npm install
 - npm run dev 
