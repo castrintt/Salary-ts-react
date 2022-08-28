@@ -1,6 +1,7 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { ICategory } from "../../interfaces/category/categoryInterfaces";
 import { IListText } from "../../interfaces/category/listCategory";
+import { IReplaceTableValues } from "../../interfaces/replaceTableValues/replaceTableValues";
 
 const INITIAL_STATE: ICategory = {
   date: "",
@@ -32,17 +33,31 @@ const categorySlice = createSlice({
           break;
       }
     },
-    datePicker(state, { payload }: TPayload) {
+    datePicker(state: ICategory, { payload }: TPayload) {
       state.date = payload;
     },
-    titlePicker(state, { payload }: TPayload) {
+    titlePicker(state: ICategory, { payload }: TPayload) {
       state.title = payload;
     },
-    valuePicker(state, { payload }: TPayload) {
+    valuePicker(state: ICategory, { payload }: TPayload) {
       state.value = payload;
     },
-    putValuesOnList(state, { payload }: PayloadAction<IListText>) {
+    putValuesOnList(state: ICategory, { payload }: PayloadAction<IListText>) {
       state.listOfValues.push(payload);
+    },
+    replaceValue(
+      state: ICategory,
+      { payload }: PayloadAction<IReplaceTableValues>
+    ) {
+      state.listOfValues.map((values: IListText, index: number) => {
+        if (index === payload.index) {
+          values.value = payload.value;
+          values.title = payload.title;
+          values.category = payload.category;
+          values.date = payload.date;
+        }
+        return values;
+      });
     },
   },
 });
@@ -54,4 +69,5 @@ export const {
   titlePicker,
   valuePicker,
   putValuesOnList,
+  replaceValue,
 } = categorySlice.actions;

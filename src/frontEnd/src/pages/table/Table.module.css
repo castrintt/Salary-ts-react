@@ -16,7 +16,7 @@
   margin: 0 auto 2rem auto;
   height: 3rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 4fr 1fr;
+  grid-template-columns: 1fr 1fr 4fr 1.4fr;
   align-items: center;
   border-radius: 0.4rem;
   position: relative;
@@ -43,7 +43,7 @@
 
 .table > .table__body > div {
   display: grid;
-  grid-template-columns: 1fr 1fr 4fr 1fr;
+  grid-template-columns: 1fr 1fr 4fr 1.4fr;
   align-items: center;
   border-radius: 0.4rem;
   border: 1px solid rgba(128, 128, 128, 0.342);
@@ -61,4 +61,25 @@
 .red {
   color: red;
   font-weight: bold;
+}
+.table__body > div > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.table__body > div > div > button {
+  margin-right: 1.4rem;
+  background-color: grey;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  width: 3rem;
+  height: 2rem;
+  font-size: 0.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
 }
