@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
 using SalaryService.Domain.Entities;
-using SalaryService.Domain.Handlers.Interfaces.RepositoryContracts;
+using SalaryService.Domain.Interfaces.RepositoryContracts;
 using SalaryService.Infra.ORM.Context;
 
 namespace SalaryService.Infra.Repositories;
@@ -15,7 +15,6 @@ public class ClientRepository : IClientRepository
     {
         _context = context;
     }
-
 
     public void Dispose() => _context.Dispose();
 
@@ -32,6 +31,14 @@ public class ClientRepository : IClientRepository
             query = include(query);
 
         return await query.FirstOrDefaultAsync(c => c.Id == clientId);
+    }
+
+
+    public async Task<bool> LoginAsync(string login, string password)
+    {
+        var client = await _dbSet.FirstOrDefaultAsync(c => c.Account.Login == login && c.Account.Password == password);
+
+        return client != null ? true : false;
     }
 
     public async Task<bool> SaveAsync(Client client)
@@ -59,5 +66,4 @@ public class ClientRepository : IClientRepository
 
         return await CommintSaveInDb();
     }
-
 }

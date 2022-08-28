@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "BC9WXh7h2HmoufgzYh/f9RoQeyqY6iErXlPeslWhi+Dn1xfPNkDiOf9tG3pO53wJIK2W/B+r//qOpBPl71yufg==",
+  "dgSpecHash": "tsT9s2IUsQpltkcLtd5IDr5qUhMAK1zkdBAuq05OOx3kRP1Admp+6FSFjPVMYQIRjA2z+zUKom63L9Fx0S1tgw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Igor Seven\\Documents\\ProjetosNET6\\SalaryService\\SalaryService.Infra\\SalaryService.Infra.csproj",
+  "projectFilePath": "C:\\Users\\Igor Seven\\Documents\\MyRepositories\\Projeto - Igor Front\\Salary_New\\Salary-ts-react\\src\\backEnd\\SalaryService.Infra\\SalaryService.Infra.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Igor Seven\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Igor Seven\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
     "C:\\Users\\Igor Seven\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\Igor Seven\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Igor Seven\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Igor Seven\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Igor Seven\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Igor Seven\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",

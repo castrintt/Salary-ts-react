@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryService.Domain", "SalaryService.Domain\SalaryService.Domain.csproj", "{25BACE50-9D04-42DA-9E7B-DD17A4FBE7D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalaryService.Domain", "SalaryService.Domain\SalaryService.Domain.csproj", "{25BACE50-9D04-42DA-9E7B-DD17A4FBE7D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryService.API", "SalaryService.API\SalaryService.API.csproj", "{52C493B9-62F9-46F6-854A-C7DA35B8A06E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalaryService.API", "SalaryService.API\SalaryService.API.csproj", "{52C493B9-62F9-46F6-854A-C7DA35B8A06E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryService.Infra", "SalaryService.Infra\SalaryService.Infra.csproj", "{F62D67E0-D85A-4475-936B-AB1394063CDB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryService.IoC", "SalaryService.IoC\SalaryService.IoC.csproj", "{9ABF83CA-2F20-44A6-8091-0339CC130390}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalaryService.Infra", "SalaryService.Infra\SalaryService.Infra.csproj", "{F62D67E0-D85A-4475-936B-AB1394063CDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{F62D67E0-D85A-4475-936B-AB1394063CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F62D67E0-D85A-4475-936B-AB1394063CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F62D67E0-D85A-4475-936B-AB1394063CDB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9ABF83CA-2F20-44A6-8091-0339CC130390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9ABF83CA-2F20-44A6-8091-0339CC130390}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9ABF83CA-2F20-44A6-8091-0339CC130390}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9ABF83CA-2F20-44A6-8091-0339CC130390}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

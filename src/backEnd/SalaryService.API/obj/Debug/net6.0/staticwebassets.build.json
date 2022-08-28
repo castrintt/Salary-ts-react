@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6w4sSuJGVaBlV/Est260DYdThbcpvdeQsioigRdq2ag=",
+  "Source": "SalaryService.API",
+  "BasePath": "_content/SalaryService.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

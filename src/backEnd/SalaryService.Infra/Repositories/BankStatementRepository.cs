@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
 using SalaryService.Domain.Entities;
-using SalaryService.Domain.Handlers.Interfaces.RepositoryContracts;
+using SalaryService.Domain.Interfaces.RepositoryContracts;
 using SalaryService.Infra.ORM.Context;
 
 namespace SalaryService.Infra.Repositories;

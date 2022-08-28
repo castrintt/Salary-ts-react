@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5fYt+s/MYYEyucLLBkWIQiwxaF4FA2pncpQwdde0RSz5ZHkeOGtHlGe/VkdwAI/jaA2vO0tVWHLojjWp8eqeDA==",
+  "dgSpecHash": "Hrdb24QWPIHvcwCZG9g3Pn5pWqnuz0QUqQqEyaU4cIfytp3FKrHzlLcaQBZ8tKyE5DaIGCC4P30Ry3MIHmveOw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Igor Seven\\Documents\\ProjetosNET6\\SalaryService\\SalaryService.Domain\\SalaryService.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Igor Seven\\Documents\\MyRepositories\\Projeto - Igor Front\\Salary_New\\Salary-ts-react\\src\\backEnd\\SalaryService.Domain\\SalaryService.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Igor Seven\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Igor Seven\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\Igor Seven\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Igor Seven\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",
     "C:\\Users\\Igor Seven\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.8\\microsoft.entityframeworkcore.abstractions.6.0.8.nupkg.sha512",
     "C:\\Users\\Igor Seven\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.8\\microsoft.entityframeworkcore.analyzers.6.0.8.nupkg.sha512",

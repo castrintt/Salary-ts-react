@@ -6,10 +6,9 @@ namespace SalaryService.Domain.Entities
     {
         public string Description { get; set; }
         public DateTime PaymentDate { get; set; }
-        public EExpenditureType ExpenditureType { get; set; }
+        public ETypeOfExpense TypeOfExpense { get; set; }
         public decimal Value { get; set; }
 
         public int BankStatementId { get; set; }
-        public BankStatement BankStatement { get; set; }
     }
 }
